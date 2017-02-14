@@ -4,15 +4,9 @@
         "arrow-parens": [true, "ban-single-arg-parens"],
         "class-name": true,
         "cyclomatic-complexity": [true, 3],
-        "comment-format": [
-            true,
-            "check-space"
-        ],
+        "comment-format": [true, "check-space"],
         "eofline": true,
-        "indent": [
-            true,
-            "spaces"
-        ],
+        "indent": [true, "spaces"],
         "jsdoc-format": true,
         "max-classes-per-file": [true, 1],
         "max-file-line-count": [true, 300],
@@ -32,18 +26,27 @@
             "check-open-brace",
             "check-whitespace"
         ],
-        "ordered-imports": [true, {"import-sources-order": "lowercase-last", "named-imports-order": "lowercase-first"}],
-        "one-variable-per-declaration": [true, "ignore-for-loop"],
-        "quotemark": [
+        "ordered-imports": [
             true,
-            "double"
+            {
+                "import-sources-order": "lowercase-last",
+                "named-imports-order": "lowercase-first"
+            }
         ],
+        "one-variable-per-declaration": [true, "ignore-for-loop"],
+        "quotemark": [true, "double"],
         "semicolon": [
             true,
             "always",
             "ignore-interfaces"
         ],
-        "trailing-comma": [false, {"multiline": "never", "singleline": "never"}],
+        "trailing-comma": [
+            false,
+            {
+                "multiline": "never",
+                "singleline": "never"
+            }
+        ],
         "triple-equals": [
             true,
             "allow-null-check",

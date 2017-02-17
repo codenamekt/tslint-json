@@ -263,7 +263,7 @@ function and tuple typings, named imports and function parameters.
     "triple-equals": true
 ```
 
-Requires === and !==, no exceptions.
+Requires `===` and `!==`, no exceptions.
 
 
 ### typedef-whitespace: Array
@@ -327,4 +327,3 @@ Enforce whitespace style conventions.
  - `"check-type"` check for whitespace before a variable type specification.
  - `"check-typecast"` check for whitespace between a typecast and its target.
  - `"check-preblock"` check for whitespace before the opening brace of a block
- 

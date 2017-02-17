@@ -37,8 +37,7 @@
         "quotemark": [true, "double"],
         "semicolon": [
             true,
-            "always",
-            "ignore-interfaces"
+            "always"
         ],
         "trailing-comma": [
             false,
@@ -47,11 +46,7 @@
                 "singleline": "never"
             }
         ],
-        "triple-equals": [
-            true,
-            "allow-null-check",
-            "allow-undefined-check"
-        ],
+        "triple-equals": true,
         "typedef-whitespace": [
             true,
             {

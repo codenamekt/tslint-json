@@ -21,19 +21,17 @@ Requires using either `T[]` or `Array` for arrays.
 All objects/classes to be referenced capcase.
 
 Example
-```typescript
-public test(testSteps: Array<Array<string>>, testName: string): void {}
+```json
+    public test(testSteps: Array<Array<string>>, testName: string): void {}
 ```
 
 
 ### arrow-parens
 ```json
-   "arrow-parens": [true, "ban-single-arg-parens"]
+   "arrow-parens": [true]
 ```
 
 Requires parentheses around the parameters of arrow function definitions.
-
-If `ban-single-arg-parens` is specified, then arrow functions with one parameter must not have parentheses if removing them is allowed by TypeScript.
 
 
 ### class-name: Boolean
@@ -95,7 +93,7 @@ Ensures that files have a single responsibility so that that classes each exist 
 
 ### max-file-line-count: Array
 ```json
-    "max-file-line-count": [true, 300]
+    "max-file-line-count": [true, 100]
 ```
 
 Ensure a file stays under a certain line count. Most people don't like scrolling more than 300.
@@ -195,7 +193,7 @@ Require keys in object literals to be sorted alphabetically.
         true,
         "check-open-brace",
         "check-whitespace"
-    ],
+    ]
 ```
 
 Require the open brace and whitespace to be on the same line as the expression preceding them.
@@ -209,7 +207,7 @@ Require the open brace and whitespace to be on the same line as the expression p
             "import-sources-order": "lowercase-last",
             "named-imports-order": "lowercase-first"
         }
-    ],
+    ]
 ```
 
 Require that import statements be alphabetized.

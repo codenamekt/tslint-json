@@ -1,7 +1,7 @@
 {
     "rules": {
         "array-type": [true, "generic"],
-        "arrow-parens": [true, "ban-single-arg-parens"],
+        "arrow-parens": [true],
         "class-name": true,
         "cyclomatic-complexity": [true, 3],
         "comment-format": [true, "check-space"],
@@ -9,7 +9,7 @@
         "indent": [true, "spaces"],
         "jsdoc-format": true,
         "max-classes-per-file": [true, 1],
-        "max-file-line-count": [true, 300],
+        "max-file-line-count": [true, 100],
         "no-default-export": true,
         "no-duplicate-variable": true,
         "no-parameter-properties": true,
